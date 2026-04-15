@@ -9,30 +9,45 @@
 <body>
   <header class="site-header">
     <div class="container nav-wrap">
-      <a class="brand" href="index.html">
-        <img src="assets/badge.svg" alt="Helsinki Harps club badge" class="logo" />
-        <span>Helsinki Harps</span>
+      <a class="brand brand-large" href="index.html">
+        <img
+          src="assets/badges/badge.svg"
+          alt="Helsinki Harps club badge"
+          class="logo"
+        />
+        <div class="brand-text">
+          <span class="brand-name">Helsinki Harps</span>
+          <span class="brand-subtitle">Community club in Helsinki</span>
+        </div>
       </a>
-      <button class="menu-toggle" aria-label="Toggle navigation" id="menuToggle">Menu</button>
-      <nav class="site-nav" id="siteNav">
+
+      <button class="menu-toggle" aria-label="Toggle navigation" id="menuToggle">
+        Menu
+      </button>
+
+      <nav class="site-nav site-nav-wide" id="siteNav">
         <a href="index.html">Home</a>
         <a href="squad.html">Squad</a>
         <a href="fixtures.html">Fixtures</a>
         <a href="gallery.html">Gallery</a>
         <a href="contact.html">Contact</a>
+        <a href="contact.html" class="nav-cta">Join / Contact</a>
       </nav>
     </div>
   </header>
 
   <main class="section">
     <div class="container">
-      <div class="section-heading">
-        <p class="eyebrow">Matchday</p>
-        <h1>Fixtures & Results</h1>
+      <div class="page-header">
+        <p class="section-label">Fixtures & Results</p>
+        <h1 class="page-title">Match schedule</h1>
+        <p class="section-text">
+          Keep track of upcoming games and recent results for Helsinki Harps.
+        </p>
       </div>
 
-      <div class="card">
-        <h2>Upcoming Fixtures</h2>
+      <div class="table-card">
+        <h3>Upcoming fixtures</h3>
         <table class="fixtures-table">
           <thead>
             <tr>
@@ -65,8 +80,8 @@
         </table>
       </div>
 
-      <div class="card top-space">
-        <h2>Recent Results</h2>
+      <div class="table-card top-space">
+        <h3>Recent results</h3>
         <table class="fixtures-table">
           <thead>
             <tr>
