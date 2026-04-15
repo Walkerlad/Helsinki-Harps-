@@ -10,16 +10,25 @@
   <header class="site-header">
     <div class="container nav-wrap">
       <a class="brand" href="index.html">
-        <img src="assets/badge.svg" alt="Helsinki Harps club badge" class="logo" />
+        <img
+          src="assets/badges/badge.svg"
+          alt="Helsinki Harps club badge"
+          class="logo"
+        />
         <span>Helsinki Harps</span>
       </a>
-      <button class="menu-toggle" aria-label="Toggle navigation" id="menuToggle">Menu</button>
+
+      <button class="menu-toggle" aria-label="Toggle navigation" id="menuToggle">
+        Menu
+      </button>
+
       <nav class="site-nav" id="siteNav">
         <a href="index.html">Home</a>
         <a href="squad.html">Squad</a>
         <a href="fixtures.html">Fixtures</a>
         <a href="gallery.html">Gallery</a>
         <a href="contact.html">Contact</a>
+        <a href="contact.html" class="nav-cta">Join / Contact</a>
       </nav>
     </div>
   </header>
@@ -27,17 +36,30 @@
   <main class="section">
     <div class="container">
       <div class="section-heading">
-        <p class="eyebrow">Photos</p>
+        <p class="section-label">Photos</p>
         <h1>Gallery</h1>
+        <p class="section-text">
+          A look at training, matchdays, team moments, and the people around Helsinki Harps.
+        </p>
       </div>
 
       <div class="gallery-grid">
-        <div class="gallery-item">Matchday photo 1</div>
-        <div class="gallery-item">Training photo 2</div>
-        <div class="gallery-item">Team photo 3</div>
-        <div class="gallery-item">Supporters photo 4</div>
-        <div class="gallery-item">Action shot 5</div>
-        <div class="gallery-item">Club event 6</div>
+        <div class="gallery-item placeholder-card">Matchday photo 1</div>
+
+        <div class="gallery-item">
+          <img
+            src="assets/images/training/harps-training.jpeg"
+            alt="Helsinki Harps training session"
+            width="1200"
+            height="800"
+            loading="lazy"
+          />
+        </div>
+
+        <div class="gallery-item placeholder-card">Team photo 3</div>
+        <div class="gallery-item placeholder-card">Supporters photo 4</div>
+        <div class="gallery-item placeholder-card">Action shot 5</div>
+        <div class="gallery-item placeholder-card">Club event 6</div>
       </div>
     </div>
   </main>
